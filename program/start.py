@@ -67,14 +67,14 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", url=f"https://t.me/MultiTeleStreamGuide/5}"),
+                [InlineKeyboardButton("❓ Basic Guide", url=f"https://t.me/MultiTeleStreamGuide/5")],
                 [
                     InlineKeyboardButton("📚 Commands", url=f"https://t.me/MultiTeleStreamGuide/6"),
-                    InlineKeyboardButton("❤️ Donate", url=f"http://t.me/CrazyEvilsAssistant_bot"),
+                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/CrazyEvilsAssistant_bot"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👋 Update Channel", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -82,7 +82,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧑‍💻 Help", url="http://t.me/CrazyEvilsAssistant_bot"
+                        "Help", url="https://t.me/CrazyEvilsAssistant_bot"
                     )
                 ],
             ]
@@ -102,9 +102,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("👋 Update Channel", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
