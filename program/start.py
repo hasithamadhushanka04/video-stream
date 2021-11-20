@@ -67,7 +67,7 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", url=f"https://t.me/MultiTeleStreamGuide/5}")],
+                [InlineKeyboardButton("❓ Basic Guide", url=f"https://t.me/MultiTeleStreamGuide/5}"),
                 [
                     InlineKeyboardButton("📚 Commands", url=f"https://t.me/MultiTeleStreamGuide/6"),
                     InlineKeyboardButton("❤️ Donate", url=f"http://t.me/CrazyEvilsAssistant_bot"),
